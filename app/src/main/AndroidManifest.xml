@@ -10,14 +10,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project_2022">
         <activity
-            android:name="cn.edu.sict.chapter02.LC0108_t201"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:name="cn.edu.sict.chapter02.Lc0107_t101"
+            android:exported="false" />
+        <activity
+            android:name="cn.edu.sict.chapter03.Lc0118_t3013"
+            android:exported="false" />
+        <activity
+            android:name="cn.edu.sict.chapter03.Lc0118_t3012"
+            android:exported="false" />
+        <activity
+            android:name="cn.edu.sict.chapter02.Lc0116_t203"
+            android:exported="false" />
+        <activity
+            android:name="cn.edu.sict.chapter02.LC0110_t202"
+            android:exported="false" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+
+        <activity
+            android:name="cn.edu.sict.chapter02.LC0108_t201"
+            android:exported="true" />
     </application>
 
 </manifest>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.edu.sict.chapter02.Lc0116_t203">
+
+    <ImageView
+        android:id="@+id/imageCentre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/t203_leaf" />
+
+    <ImageView
+        android:id="@+id/imageTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/imageCentre"
+        android:layout_centerHorizontal="true"
+        android:layout_alignLeft="@id/imageCentre"
+        android:layout_alignRight="@id/imageCentre"
+        android:layout_marginBottom="40dp"
+        app:srcCompat="@drawable/t203_leaf" />
+
+    <ImageView
+        android:id="@+id/imageBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageCentre"
+        android:layout_centerHorizontal="true"
+        android:layout_alignLeft="@id/imageCentre"
+        android:layout_alignRight="@id/imageCentre"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/t203_leaf" />
+
+    <ImageView
+        android:id="@+id/imageLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/imageCentre"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="40dp"
+        app:srcCompat="@drawable/t203_leaf" />
+
+    <ImageView
+        android:id="@+id/imageRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageCentre"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="40dp"
+        app:srcCompat="@drawable/t203_leaf" />
+</RelativeLayout>
