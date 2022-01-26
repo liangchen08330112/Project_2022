@@ -4,9 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import cn.edu.sict.project_2022.R;
 
@@ -49,6 +51,18 @@ public class Lc0125_t401 extends AppCompatActivity {
                 intent.putExtras(bundle);
                 //打开新界面
                 startActivity(intent);
+        }
+    }
+    private void submit(){
+        String name = Project_lc0126_t401_editName.getText().toString().trim();
+        if(TextUtils.isEmpty(name)){  //如果用户名为空，则输出“用户名不得为空”
+            Toast.makeText(this,"用户名不得为空",Toast.LENGTH_SHORT).show();
+            return;
+        }
+        String password = Project_lc0126_t401_editPassword.getText().toString().trim();
+        if(TextUtils.isEmpty(password)){  //如果密码为空，则输出“密码不得为空”
+            Toast.makeText(this,"密码不得为空",Toast.LENGTH_SHORT).show();
+            return;
         }
     }
 }

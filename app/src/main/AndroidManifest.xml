@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project_2022">
         <activity
+            android:name="cn.edu.sict.chapter04.Lc0127_t4031"
+            android:exported="false" />
+        <activity
+            android:name="cn.edu.sict.chapter04.Lc0126_t4022"
+            android:exported="false" />
+        <activity
+            android:name="cn.edu.sict.chapter04.Lc0126_t4021"
+            android:exported="false" />
+        <activity
             android:name="cn.edu.sict.chapter04.Lc0125_t4012"
             android:exported="false" />
         <activity
