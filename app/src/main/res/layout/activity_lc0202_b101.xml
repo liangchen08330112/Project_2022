@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="cn.edu.sict.spring_festival_bilibili.Lc0202_b101">
+
+    <DatePicker
+        android:id="@+id/Project_lc0204_b101_Dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </DatePicker>
+
+</RelativeLayout>

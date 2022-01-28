@@ -25,7 +25,7 @@ public class Lc0122_t303 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_lc0122_t303);
 
         activity_lc0122_rg_sex = findViewById(R.id.activity_lc0122_rg_sex);
         activity_lc0122_cb_programming = findViewById(R.id.activity_lc0122_cb_programmming);

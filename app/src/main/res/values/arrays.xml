@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cities">
+        <item>烟台</item>
+        <item>济南</item>
+        <item>青岛</item>
+        <item>威海</item>
+        <item>潍坊</item>
+    </string-array>
+
+
+
+</resources>

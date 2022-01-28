@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.edu.sict.chapter05.Lc0129_t501">
+
+    <TextView
+        android:id="@+id/Project_lc0129_t5012_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="方法一：使用纯XML的方式" />
+
+    <ListView
+        android:id="@+id/Project_lc0129_t5012_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/cities"
+        android:divider="@drawable/t501_red" />
+
+    <TextView
+        android:id="@+id/Project_lc0129_t5012_title2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="方法二：XML+Java" />
+
+    <ListView
+        android:id="@+id/Project_lc0129_t5012_listView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/t501_green" />
+</LinearLayout>

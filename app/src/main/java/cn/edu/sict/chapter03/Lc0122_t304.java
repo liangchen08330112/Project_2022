@@ -17,7 +17,7 @@ public class Lc0122_t304 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_lc0122_t304);
 
         activity_lc01222_et_password01 = findViewById(R.id.activity_lv01222_et_password01);
         activity_lc01222_et_password02 = findViewById(R.id.activity_lv01222_et_password02);

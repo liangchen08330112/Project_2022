@@ -10,6 +10,43 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project_2022">
         <activity
+            android:name="cn.edu.sict.chapter05.Page3"
+            android:exported="false" />
+        <activity
+            android:name="cn.edu.sict.chapter05.Page2"
+            android:exported="false" />
+        <activity
+            android:name="cn.edu.sict.chapter05.Page1"
+            android:exported="false" />
+        <activity
+            android:name="cn.edu.sict.chapter05.Lc0205_t503"
+            android:exported="false" />
+        <activity
+            android:name="cn.edu.sict.spring_festival_bilibili.Lc0203_b102"
+            android:exported="false" />
+        <activity
+            android:name="cn.edu.sict.spring_festival_bilibili.Lc0202_b101"
+            android:exported="false" />
+        <activity
+            android:name="cn.edu.sict.chapter05.Lc0131_t502"
+            android:exported="false" />
+        <activity
+            android:name="cn.edu.sict.chapter04.Lc0130_t406"
+            android:exported="false" />
+        <activity
+            android:name="cn.edu.sict.chapter04.Lc0130_t405"
+            android:exported="false" />
+        <activity
+            android:name="cn.edu.sict.chapter05.Lc0129_t501"
+            android:exported="false" />
+        <activity
+            android:name="cn.edu.sict.chapter04.Lc0128_t404"
+            android:exported="false" />
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_login" />
+        <activity
             android:name="cn.edu.sict.chapter04.Lc0127_t4031"
             android:exported="false" />
         <activity

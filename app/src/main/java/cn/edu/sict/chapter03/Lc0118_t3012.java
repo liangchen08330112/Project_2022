@@ -20,7 +20,7 @@ public class Lc0118_t3012 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_lc0118_t3012);
 
         Button Project_lc01182_buttonup = findViewById(R.id.Project_lc01182_buttonup); //上一张按钮
         Button Project_lc01182_buttondown = findViewById(R.id.Project_lc01182_buttondown); //下一张按钮
