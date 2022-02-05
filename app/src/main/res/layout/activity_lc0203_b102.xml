@@ -8,7 +8,7 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingTop="16dp"
-    tools:context="cn.edu.sict.spring_festival_bilibili.Lc0203_b102">
+    tools:context="cn.edu.sict.review_and_bilibili.Lc0203_b102">
 
     <TimePicker
         android:id="@+id/Project_lc0203_timePicker"

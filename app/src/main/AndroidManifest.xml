@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project_2022">
         <activity
+            android:name="cn.edu.sict.review_and_bilibili.Lc0209_r102"
+            android:exported="false" />
+        <activity
+            android:name="cn.edu.sict.review_and_bilibili.Lc0207_r101"
+            android:exported="false" />
+        <activity
+            android:name="cn.edu.sict.chapter05.Lc0202_t504_movieList"
+            android:exported="false" />
+        <activity
             android:name="cn.edu.sict.chapter05.Page3"
             android:exported="false" />
         <activity
@@ -22,10 +31,10 @@
             android:name="cn.edu.sict.chapter05.Lc0205_t503"
             android:exported="false" />
         <activity
-            android:name="cn.edu.sict.spring_festival_bilibili.Lc0203_b102"
+            android:name="cn.edu.sict.review_and_bilibili.Lc0203_b102"
             android:exported="false" />
         <activity
-            android:name="cn.edu.sict.spring_festival_bilibili.Lc0202_b101"
+            android:name="cn.edu.sict.review_and_bilibili.Lc0202_b101"
             android:exported="false" />
         <activity
             android:name="cn.edu.sict.chapter05.Lc0131_t502"
@@ -62,7 +71,7 @@
             android:name="cn.edu.sict.chapter04.Lc0125_t401"
             android:exported="false" />
         <activity
-            android:name="cn.edu.sict.chapter03.Lc0123_t305"
+            android:name="cn.edu.sict.chapter03.Lc0209_r102"
             android:exported="false" />
         <activity
             android:name="cn.edu.sict.chapter03.Lc0122_t304"

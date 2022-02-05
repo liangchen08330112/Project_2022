@@ -1,4 +1,4 @@
-package cn.edu.sict.chapter03;
+package cn.edu.sict.review_and_bilibili;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,20 +8,20 @@ import android.widget.Toast;
 
 import cn.edu.sict.project_2022.R;
 
-public class Lc0123_t305 extends AppCompatActivity {
+public class Lc0209_r102 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_lc0123_t305);
+        setContentView(R.layout.activity_lc0209_r102);
     }
 
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if (keyCode == KeyEvent.KEYCODE_BACK) {
-            Toast.makeText(Lc0123_t305.this, "你点击的是返回键", Toast.LENGTH_SHORT).show();
+            Toast.makeText(Lc0209_r102.this, "你点击的是返回键", Toast.LENGTH_SHORT).show();
             return true;
         } else if (event.getKeyCode() == KeyEvent.KEYCODE_MENU) {
-            Toast.makeText(Lc0123_t305.this, "你点击的是菜单键", Toast.LENGTH_SHORT).show();
+            Toast.makeText(Lc0209_r102.this, "你点击的是菜单键", Toast.LENGTH_SHORT).show();
             return true;
         }
         return super.onKeyDown(keyCode, event);

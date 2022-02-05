@@ -1,4 +1,4 @@
-package cn.edu.sict.spring_festival_bilibili;
+package cn.edu.sict.review_and_bilibili;
 
 import androidx.appcompat.app.AppCompatActivity;
 

@@ -18,7 +18,7 @@ public class Lc0120_t302 extends AppCompatActivity implements View.OnClickListen
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_project_lc0120);
+        setContentView(R.layout.activity_lc0120_t302);
 
         activity_t302_iv_phone = findViewById(R.id.activity_t302_iv_phone);
         activity_t302_result = findViewById(R.id.activity_t302_result);

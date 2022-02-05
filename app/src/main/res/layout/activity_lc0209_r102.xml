@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context="cn.edu.sict.review_and_bilibili.Lc0209_r102">
 
     <TextView
         android:id="@+id/Project_lc0123_textView1"
@@ -21,7 +22,7 @@
         android:id="@+id/Project_lc0123_textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="我可以反馈你刚才点的是什么。"
+        android:text="通过点击按键来反馈刚才的操作。"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -29,5 +30,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.338" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
