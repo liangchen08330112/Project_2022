@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center_horizontal"
-    tools:context="cn.edu.sict.chapter02.LC0110_t202">
+    tools:context="cn.edu.sict.chapter02.Lc0110_t202">
 
     <TextView
         android:id="@+id/textTitle"

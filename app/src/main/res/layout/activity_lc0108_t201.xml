@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:gravity="center_horizontal"
 
-    tools:context="cn.edu.sict.chapter02.LC0108_t201">
+    tools:context="cn.edu.sict.chapter02.Lc0108_t201">
 
     <TextView
         android:id="@+id/textTitle"

@@ -1,4 +1,4 @@
-package cn.edu.sict.chapter02;
+package cn.edu.sict.review_and_bilibili;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,11 +6,11 @@ import android.os.Bundle;
 
 import cn.edu.sict.project_2022.R;
 
-public class LC0110_t202 extends AppCompatActivity {
+public class Lc0212_r104 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_lc0110_t3);
+        setContentView(R.layout.activity_lc0212_r104);
     }
 }

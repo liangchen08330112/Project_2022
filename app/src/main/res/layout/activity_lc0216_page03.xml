@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="cn.edu.sict.chapter03.Lc0211_r103">
+    android:background="#0000FF"
+    tools:context="cn.edu.sict.review_and_bilibili.Lc0216_page03">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

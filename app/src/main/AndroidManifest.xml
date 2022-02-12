@@ -10,6 +10,34 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project_2022">
         <activity
+            android:name="cn.edu.sict.review_and_bilibili.Lc0216_page03"
+            android:exported="false" />
+        <activity
+            android:name="cn.edu.sict.review_and_bilibili.Lc0216_page02"
+            android:exported="false" />
+        <activity
+            android:name="cn.edu.sict.review_and_bilibili.Lc0216_page01"
+            android:exported="false" />
+        <activity
+            android:name="cn.edu.sict.review_and_bilibili.Lc0216_r106"
+            android:exported="false" />
+        <activity
+            android:name="cn.edu.sict.review_and_bilibili.Lc0212_r104"
+            android:exported="true" />
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+
+        <activity
+            android:name="cn.edu.sict.review_and_bilibili.Lc0211_r103"
+            android:exported="false" />
+        <activity
+            android:name="cn.edu.sict.review_and_bilibili.Lc0210_b103"
+            android:exported="false" />
+        <activity
             android:name="cn.edu.sict.review_and_bilibili.Lc0209_r102"
             android:exported="false" />
         <activity
@@ -28,7 +56,7 @@
             android:name="cn.edu.sict.chapter05.Page1"
             android:exported="false" />
         <activity
-            android:name="cn.edu.sict.chapter05.Lc0205_t503"
+            android:name="cn.edu.sict.chapter05.Lc0216_r106"
             android:exported="false" />
         <activity
             android:name="cn.edu.sict.review_and_bilibili.Lc0203_b102"
@@ -89,17 +117,10 @@
             android:name="cn.edu.sict.chapter02.Lc0116_t203"
             android:exported="false" />
         <activity
-            android:name="cn.edu.sict.chapter02.LC0110_t202"
+            android:name="cn.edu.sict.chapter02.Lc0110_t202"
             android:exported="false" />
-
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-
         <activity
-            android:name="cn.edu.sict.chapter02.LC0108_t201"
+            android:name="cn.edu.sict.chapter02.Lc0108_t201"
             android:exported="true" />
     </application>
 

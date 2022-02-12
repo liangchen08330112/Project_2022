@@ -14,7 +14,7 @@ import android.widget.Toast;
 
 import cn.edu.sict.project_2022.R;
 
-public class Lc0122_t303 extends AppCompatActivity {
+public class Lc0211_r103 extends AppCompatActivity {
 
     RadioGroup activity_lc0122_rg_sex;
     CheckBox activity_lc0122_cb_programming,activity_lc0122_cb_reading,activity_lc0122_cb_travelling;
@@ -33,7 +33,7 @@ public class Lc0122_t303 extends AppCompatActivity {
         activity_lc0122_cb_reading = findViewById(R.id.activity_lc0122_cb_reading);
         activity_lc0122_et_email = findViewById(R.id.activity_lc0122_et_email);
         activity_lc0122_iv_check = findViewById(R.id.activity_lc0122_iv_check);
-        activity_lc0122_button = findViewById(R.id.activity_lc0122_button);
+        activity_lc0122_button = findViewById(R.id.activity_lc0211_button);
 
         //对单选按钮组绑定事件监听器
         // （当用户选定的单选按钮发生改变时，该事件监听器会被触发。）
@@ -42,9 +42,9 @@ public class Lc0122_t303 extends AppCompatActivity {
             public void onCheckedChanged(RadioGroup radioGroup, int checkedId) {
                 //如果用户选择了“男”
                 if(checkedId == R.id.activity_lc0122_rb_male){
-                    Toast.makeText(Lc0122_t303.this,"你选中了男性",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Lc0211_r103.this,"你选中了男性",Toast.LENGTH_SHORT).show();
                 }else{
-                    Toast.makeText(Lc0122_t303.this,"你选中了女性",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Lc0211_r103.this,"你选中了女性",Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -86,7 +86,7 @@ public class Lc0122_t303 extends AppCompatActivity {
                 if(activity_lc0122_cb_travelling.isChecked()==true){
                     str += "旅游 ";
                 }
-                Toast.makeText(Lc0122_t303.this,str,Toast.LENGTH_SHORT).show();
+                Toast.makeText(Lc0211_r103.this,str,Toast.LENGTH_SHORT).show();
             }
         });
     }
